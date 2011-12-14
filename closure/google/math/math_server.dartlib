@@ -1,0 +1,15 @@
+// Copyright (c) 2011, the Dart project authors.  Please see the AUTHORS file
+// for details. All rights reserved. Use of this source code is governed by a
+// BSD-style license that can be found in the LICENSE file.
+
+/**
+ * Library definition file for the goog:math library for browser applications.
+ * (This imports dart:dom because the Matrix4 class uses Float32Array.
+ */
+#library("google:math");
+#source("zeroLengthVectorException.dart");
+#source("singularMatrixException.dart");
+#source("vector2.dart");
+#source("vector3.dart");
+#source("matrix4.dart");
+#source("float32.dart");
